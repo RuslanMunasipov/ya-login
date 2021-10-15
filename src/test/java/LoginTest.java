@@ -25,7 +25,6 @@ public class LoginTest {
         $x("//button[@id = 'passp:sign-in']").click();
         $x("//input[@id = 'passp-field-passwd']").setValue(password);
         $x("//button[@id = 'passp:sign-in']").click();
-        System.out.println("123");
     }
     }
 
