@@ -18,9 +18,6 @@ public class LoginTest {
     public void main() {
       open("https://yandex.ru/");
 
-      //xpaths
-        //a[@class = 'home-link desk-notif-card__login-new-item desk-notif-card__login-new-item_enter home-link_black_yes home-link_hover_inherit']//div[@class = 'desk-notif-card__login-new-item-title'] login form
-
         // заполняем
 
         $x("//a[@class = 'home-link desk-notif-card__login-new-item desk-notif-card__login-new-item_enter home-link_black_yes home-link_hover_inherit']//div[@class = 'desk-notif-card__login-new-item-title']").click();
